@@ -1,8 +1,8 @@
 #include<unistd.h>
 /**
- * main - prints the standard error sandwiched around the standard outpu/t
+ * main - prints the standrad error sandwiched around the standard outpu/t
  *
- * Return: return 1
+ * Return: returns 1
  */
 int main(void)
 {
