@@ -1,8 +1,7 @@
 /**
  * set_string - sets the value of a pointer to a char
- * @s: content is to be copied
- *@to: string
- *Return: void
+ * @s: double pointer to set
+ * @to: the char to point to.
  */
 
 void set_string(char **s, char *to)
