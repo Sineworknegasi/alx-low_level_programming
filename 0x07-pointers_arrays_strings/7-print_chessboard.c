@@ -1,25 +1,13 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * print_chessboard - prints the chessboard
- * @a: the board to print
+ * set_string - sets the value of a pointer to a char
+ * @s: content is to be copied
+ *@to: string
+ *Return: void
  */
 
-void print_chessboard(char (*a)[8])
+void set_string(char **s, char *to)
 {
-	int i, j;
-
-	i = j = 0;
-	while (i < 8)
-	{
-		j = 0;
-		while (j < 8)
-		{
-			_putchar(a[i][j]);
-			j++;
-		}
-		_putchar('\n');
-		i++;
-	}
-
+        *s = to;
 }
