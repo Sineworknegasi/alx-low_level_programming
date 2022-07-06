@@ -1,9 +1,10 @@
 #include<main.h>
-/*
+/**
  * isdigit- if is a digit
  * @c: print int
  * Return: Always 0.
  */
+
 int _isdigit(int c)
 {
         if (c >= 0 && c <= 9)
