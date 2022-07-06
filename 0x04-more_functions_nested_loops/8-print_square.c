@@ -1,34 +1,26 @@
-#include "main.h"
+#include"head.h"
 /**
- * print_square - prints a square
- *@size: print size
- * Return: Always 0.
+ * -more_function_nested_loops
+ *  @size: print size
+ *  Return: Always 0.
  */
 
 void print_square(int size)
 {
-
-int i;
-int k;
-
-if (size > 0)
-{
-for (i = 0; i < size; i++)
-{
-
-for (k = 0; k < size; k++)
-{
-_putchar (35);
-}
-_putchar ('\n');
-
-}
-
-}
-
+        int i;
+        int k;
+if (size == 0
+                {
+         _putchar('\n');
+                }
 else
 {
-_putchar ('\n');
+for (i = 0; i <= size; i++)
+{
+        for (k = 0; k <= size; k++)
+        }
+        _putchar(35);
 }
-
+_putchar('\n');
+}
 }
