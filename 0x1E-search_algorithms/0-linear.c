@@ -4,7 +4,7 @@
  * linear_Search - performs linear search
  * @array: the integer array
  * @size: its size
- * @value: value to search for 
+ * @value: value to search for
  *
  * Return: the index found or -1
  */
