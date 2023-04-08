@@ -1,3 +1,4 @@
+#include<string.h>
 /**
  * _memset - fills n bytes of memory
  *
@@ -9,13 +10,5 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i = 0;
-	char *start = s;
-
-	while (i < n)
-	{
-		*s++ = b;
-		i++;
-	}
-	return (start);
+	return (memset(s,b,n));
 }
